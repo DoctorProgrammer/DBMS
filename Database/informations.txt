@@ -1,0 +1,3 @@
+Database name: users
+Database password: SqlRob04.
+Database user: root
