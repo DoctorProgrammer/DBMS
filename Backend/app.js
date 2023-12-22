@@ -1,3 +1,5 @@
+// AUTOR: Robin Trachsel
+
 const express = require('express');
 const database = require('./connect.js');
 
