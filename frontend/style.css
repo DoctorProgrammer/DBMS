@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #EEF1EC;
+    --background-color: #0D0F0B;
+    --primary-color: #BECCB1;
+    --secondary-color: #51653D;
+    --accent-color: #81A55D;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#dialog-login {
+    color: var(--text-color);
+    border: none
+}
+
+#login {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login input {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+}
+
+#login input:focus {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    outline: none;
+}
+
+#login input[type="submit"] {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    font-weight: bold;
+}
